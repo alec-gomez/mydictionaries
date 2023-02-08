@@ -4,7 +4,7 @@ since it was manually entered. Print out the details of any produce that has in 
 as well as the calculated total that shows the discrepancy.
 '''
 
-ProduceDictionary={
+ProduceDictionary = {
     'Potatoes': {
         'cost': 0.86,
         'amt_sold': 39.8,
@@ -206,4 +206,5 @@ ProduceDictionary={
         'total': 21.87
     }
 }
-
+result = ProduceDictionary['cost']['amt_sold']['total']
+print(result)
