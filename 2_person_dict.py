@@ -8,6 +8,7 @@ person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
 print(person)
 
+
 print(person["children"])
 
 print(person["children"][1])
